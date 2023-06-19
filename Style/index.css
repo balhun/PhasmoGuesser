@@ -5,6 +5,7 @@ h1 {
     text-align: center;
 }
 h2 {
+    display: block;
     border-bottom: 1px solid black;
     padding: 20px;
     text-align: center;
@@ -15,6 +16,7 @@ section {
     padding: 30px;
 }
 a {
+    display: block;
     text-align: center;
     color: lightcoral;
     font-size: 20pt;
@@ -23,7 +25,7 @@ a {
     border: 5px lightcoral solid;
     background-color: lightsalmon;
     transition: 0.3s;
-    vertical-align: middle;
+    justify-content: center;
 }
 a:hover {
     background-color: lightcoral;
