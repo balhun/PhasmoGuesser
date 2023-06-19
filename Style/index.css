@@ -1,0 +1,31 @@
+h1 {
+    border-bottom: 1px solid black;
+    padding: 20px;
+    font-size: 50pt;
+    text-align: center;
+}
+h2 {
+    border-bottom: 1px solid black;
+    padding: 20px;
+    text-align: center;
+}
+section {
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
+a {
+    text-align: center;
+    color: red;
+    font-size: 20pt;
+    text-align: center;
+    text-decoration: none;
+    border: 5px red solid;
+    background-color: lightcoral;
+    transition: 0.3s;
+}
+a:hover {
+    background-color: red;
+    color: white;
+    transform: translateY(-20px);
+}
