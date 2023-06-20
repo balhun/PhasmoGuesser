@@ -1,34 +1,63 @@
-h1 {
-    border-bottom: 1px solid black;
-    padding: 20px;
-    font-size: 50pt;
-    text-align: center;
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: black;
 }
-h2 {
+div {
+    overflow: hidden;
+    width: 1000px;
+    height: 100vh;
     display: block;
-    border-bottom: 1px solid black;
-    padding: 20px;
-    text-align: center;
+    margin: auto;
+    background-color: #28218a;
 }
-section {
+header, section {
     display: flex;
     justify-content: center;
-    padding: 30px;
+}
+h1 {
+    color: white;
+    border-bottom: 6px solid black;
+    border-radius: 5px;
+    padding-bottom: 10px;
+    font-size: 40pt;
+    text-align: center;
+    width: 500px;
+}
+h2 {
+    color: white;
+    width: 100%;
+    border-bottom: 6px solid black;
+    border-radius: 5px;
+    text-align: center;
+    padding-bottom: 10px;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+section {
+    display: block;
+    width: 100%;
+    text-align: center;
 }
 a {
-    display: block;
+    border-radius: 10px;
+    display: flex;
+    width: fit-content;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
     text-align: center;
-    color: lightcoral;
-    font-size: 20pt;
-    text-align: center;
+    color: blue;
+    border: 5px blue solid;
+    background-color: lightblue;
     text-decoration: none;
-    border: 5px lightcoral solid;
-    background-color: lightsalmon;
+    vertical-align: middle;
+    font-size: 20pt;
     transition: 0.3s;
-    justify-content: center;
+    padding: 10px;
 }
 a:hover {
-    background-color: lightcoral;
+    background-color: blue;
     color: white;
     transform: translateY(-20px);
 }
